@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #3c3c3c; /* Tono rosa */
+    color: white;
+}
+
+.container {
+    max-width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.info .about-image {
+    margin-right: 0;
+    margin-bottom: 20px;
+}
+
+.rainbow {
+    color: #0affff; /* Tono rosa más oscuro */
+    transition: filter 5s;
+}
+
+.rainbow:hover {
+    filter: hue-rotate(820deg);
+}

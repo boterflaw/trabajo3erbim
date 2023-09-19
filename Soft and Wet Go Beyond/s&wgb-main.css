@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #3c3c3c; 
+    color: white;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.character-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.character-image {
+    margin-left: 20px;
+}
+
+.about-image {
+    float: left;
+    margin-right: 20px;
+}
+
+.rainbow {
+    color: #00aeff; 
+    transition: filter 5s;
+}
+
+.rainbow:hover {
+    filter: hue-rotate(820deg);
+}
+
+
+
+.character-image img,
+.about-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.ability {
+    margin-bottom: 20px;
+}
+
+.ability iframe {
+    width: 100%;
+    max-width: 560px;
+    height: auto;
+    margin-bottom: 10px;
+}
